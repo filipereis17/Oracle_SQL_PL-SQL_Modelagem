@@ -1,0 +1,13 @@
+SELECT *
+FROM employees;
+
+SET SERVEROUTPUT ON
+DECLARE 
+    vTexto VARCHAR(100) := 'Seja bem-vindo ao PL/AQL';
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(vTexto);
+EXCEPTION
+    WHEN OTHERS
+    THEN
+        DBMS_OUTPUT.PUT_LINE('Erro Oracle: ' || SQLCODE || SQLERRM);
+END;
