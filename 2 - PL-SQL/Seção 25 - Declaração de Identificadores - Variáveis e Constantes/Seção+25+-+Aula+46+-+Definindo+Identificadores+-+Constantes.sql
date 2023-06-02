@@ -1,7 +1,7 @@
 --
--- Se√ß√£o 6 - Declara√ß√£o de Identificadores - Vari√°veis e Constantes
+-- SeÁ„o 6 - DeclaraÁ„o de Identificadores - Vari·veis e Constantes
 --
--- Aula 2 - Definindo Identificadores ‚Äì Constantes
+-- Aula 2 - Definindo Identificadores - Constantes
 --
 -- 
 
@@ -30,7 +30,7 @@ BEGIN
   
 END;
 
--- Declarando vari√°veis Tipo DATE
+-- Declarando vari·veis Tipo DATE
 
 SET SERVEROUTPUT ON
 DECLARE
