@@ -9,10 +9,10 @@
 
 SET SERVEROUTPUT ON
 SET VERIFY OFF
-DECLARE
-  CURSOR  employees_cursor  IS
-  SELECT  *
-  FROM    employees;  -- Declaração do Cursor
+DECLARE                         
+  CURSOR  employees_cursor  IS -- Declaração do Cursor
+  SELECT  *                     
+  FROM    employees;
   
   employees_record  employees_cursor%rowtype; 
 BEGIN
@@ -42,7 +42,7 @@ BEGIN
 END;
 
 
--- Controlando um Cursor Expl�cito com WHILE LOOP
+-- Controlando um Cursor Expl�cito com WHILE LOOP
 
 SET SERVEROUTPUT ON
 SET VERIFY OFF
