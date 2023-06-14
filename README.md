@@ -6,6 +6,9 @@ No primeiro, aprende-se os fundamentos da linguagem SQL, desde a instalação at
 - Download e Instalação do SQL Developer
 - Introdução ao SQL
 - Consultando dados utilizando o comando SQL SELECT
+- Restrigindo e Ordenando Dados
+- Funções Single Row
+- Funções de Conversão e Expressões
 
 ## Oracle PL/SQL
 No segundo, aprende-se os fundamentos da linguagem PL/SQL, começando em Bloco Anônimo, passando por 

@@ -66,7 +66,7 @@ FROM dual;
 SELECT sysdate, sysdate + 30, sysdate + 60, sysdate - 30
 FROM dual;
 
-SELECT date '2023-05-02' "Data de Admissão", date '2023-05-02' + 90 - 1 "Data do fim do estágio"
+SELECT date '2023-05-02' "Data de Admissão", (date '2023-05-02' + 90 - 1) "Data do fim do estágio", TRUNC(sysdate) - (date '2023-05-02') + 1 "Dias trabalhados"
 FROM dual;
 
 SELECT last_name, ROUND((SYSDATE - hire_date) / 7, 2) "SEMANAS DE TRABALHO'"
