@@ -104,7 +104,7 @@ WHERE job_id = 'SA_REP'  OR job_id = 'IT_PROG' AND salary > 10000;
 SELECT last_name, job_id, salary
 FROM employees
 WHERE (job_id = 'SA_REP'  OR
-               job_id = 'IT_PROG')
+       job_id = 'IT_PROG')
 AND salary > 10000;
 
 -- Utilizando a cláusula ORDER BY - Ordem Ascendente
@@ -129,7 +129,7 @@ SELECT employee_id, last_name, salary*12 salario_anual
 FROM employees
 ORDER BY salario_anual;
 
--- Utilizando a cláusula ORDER BY â€“ Referenciando a PosiÃ§Ã£o
+-- Utilizando a cláusula ORDER BY - Referenciando a Posição
 
 SELECT last_name, job_id, department_id, hire_date
 FROM employees
