@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto Empresa Dptio RH" id="82898C9E-91EF-5D97-3130-DCF341CA8F2D" version="3.5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-16 20:03:12 UTC</createdTime>
+<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>82898C9E-91EF-5D97-3130-DCF341CA8F2D</designId>
+</OSDM_Design>

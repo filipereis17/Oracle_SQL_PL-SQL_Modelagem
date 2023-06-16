@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F85F5FC-916E-8A44-9BA6-85137DEE6855" name="EMPREGADO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-16 20:05:26 UTC</createdTime>
+<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EMPG</preferredAbbreviation>
+<shortName>EMPG</shortName>
+</Entity>

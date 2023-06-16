@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D865E9E0-93CD-084A-3D0F-FBB6CE1E5E5C" name="DEPARTAMENTO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-16 20:05:57 UTC</createdTime>
+<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>DEPT</preferredAbbreviation>
+<shortName>DEPT</shortName>
+</Entity>
