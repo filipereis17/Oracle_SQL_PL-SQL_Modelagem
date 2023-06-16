@@ -1,5 +1,5 @@
 --
--- SeÃ§Ã£o 9 - Estruturas de Controle 
+-- Seção 9 - Estruturas de Controle 
 --
 -- Aula 5 - FOR LOOP
 --
