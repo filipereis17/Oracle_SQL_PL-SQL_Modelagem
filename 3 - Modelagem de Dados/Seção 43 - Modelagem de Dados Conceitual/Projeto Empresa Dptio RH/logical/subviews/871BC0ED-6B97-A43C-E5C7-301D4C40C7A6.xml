@@ -16,15 +16,15 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3F85F5FC-916E-8A44-9BA6-85137DEE6855" otype="Entity" vid="2E4C2F29-148F-6C71-136E-A82401243B36">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="350" y="73" width="170" height="110"/>
+<bounds x="281" y="72" width="170" height="152"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="ACB1AD53-631D-2ADE-1E89-F73971626645" otype="Entity" vid="0D1ACF3F-4DEE-856E-5997-52862EEB6E28">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="59" y="76" width="170" height="110"/>
+<bounds x="74" y="72" width="170" height="150"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D865E9E0-93CD-084A-3D0F-FBB6CE1E5E5C" otype="Entity" vid="32A61260-8288-5A9D-6258-B588F47BFA42">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="628" y="71" width="170" height="114"/>
+<bounds x="491" y="71" width="170" height="157"/>
 </OView>
 </objectViews>
 </Diagram>
