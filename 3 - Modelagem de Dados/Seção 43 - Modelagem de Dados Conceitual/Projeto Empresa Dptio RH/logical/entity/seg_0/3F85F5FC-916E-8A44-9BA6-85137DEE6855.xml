@@ -125,4 +125,18 @@
 <ownDataTypeParameters>,18,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D25B19ED-F8D0-2114-6842-BAA2BE190951" name="EMPREGADO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-19 15:41:31 UTC</createdTime>
+<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E58B8C9-4E49-E8B5-A2E4-9217B03DB07E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
