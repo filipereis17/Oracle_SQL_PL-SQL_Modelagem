@@ -12,6 +12,8 @@ No primeiro, aprende-se os fundamentos da linguagem SQL com os temas:
 - Agregação de dados por meio de Funções ede Grupo
 - Exibição de dados a partir de Múltiplas Tabelas
 - Sub-Consultas
+- Operadores SET
+- Comands DML Manipulando Dados
 
 ## Oracle PL/SQL
 No segundo, aprende-se os fundamentos da linguagem PL/SQL com os temas:
