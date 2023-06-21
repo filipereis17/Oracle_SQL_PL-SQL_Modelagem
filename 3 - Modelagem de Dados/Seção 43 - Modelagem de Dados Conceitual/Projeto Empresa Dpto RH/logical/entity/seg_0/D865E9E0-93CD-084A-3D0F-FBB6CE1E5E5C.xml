@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D865E9E0-93CD-084A-3D0F-FBB6CE1E5E5C" name="DEPARTAMENTO">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:05:57 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -20,7 +20,7 @@
 <Attribute name="departamento_id" id="0A873B1C-0FF8-3827-5F60-5D8D056164E1">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:51:27 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -33,7 +33,7 @@
 <Attribute name="nome" id="B81D1C67-28AF-4F49-1A7E-AB425EDA7F5F">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:51:47 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <Attribute name="localizacao" id="A4B26DCC-DB59-D89E-B6B5-2DF58429EA80">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:52:08 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -56,12 +56,27 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="empresa_id" id="A7B46BA0-F1E8-8634-EB9D-A55FFCBB980F">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-21 19:59:56 UTC</createdTime>
+<generatorID>EAED0D73-268A-4A0D-A258-A0A290BE7567</generatorID>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<referedAttribute>B8FFA3C6-8906-B1A8-B79F-8932B408ECE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CE4D58B2-2D4C-AF82-DC45-9AA50C0EB058" name="DEPARTAMENTO PK">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-19 15:41:58 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>

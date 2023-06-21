@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F85F5FC-916E-8A44-9BA6-85137DEE6855" name="EMPREGADO">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:05:26 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -20,7 +20,7 @@
 <Attribute name="empregado_id" id="8E58B8C9-4E49-E8B5-A2E4-9217B03DB07E">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:44:23 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -33,7 +33,7 @@
 <Attribute name="primeiro_nome" id="04EF40D8-F6BC-FFEC-625A-D157CD8F019B">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:44:50 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <Attribute name="sobrenome" id="B64C4BD1-2DB6-4DC6-CD86-5C76EDB98591">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:45:27 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -59,7 +59,7 @@
 <Attribute name="cargo" id="A5D71284-863C-8420-CB23-BB6B16080E3B">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:45:43 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -72,7 +72,7 @@
 <Attribute name="dt_nascimento" id="97F985E3-FE52-1DF7-F267-90B508BE7995">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:46:51 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -84,7 +84,7 @@
 <Attribute name="salario" id="936BB43E-AD41-62BE-7E38-496CCD16EE9D">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:47:31 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -98,7 +98,7 @@
 <Attribute name="percentual_comissao" id="94A364CE-EB58-9BA5-89C6-F24A2A64EFD5">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:48:35 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -113,7 +113,7 @@
 <Attribute name="gerente_id" id="1181F18D-1DBC-29B2-1CA6-9E0C3500681F">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-16 20:49:54 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
@@ -124,12 +124,56 @@
 <dataTypePrecision>18</dataTypePrecision>
 <ownDataTypeParameters>,18,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="departamento_id" id="87FEA2A3-9A4E-518D-5B65-77AFE61C4630">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-21 20:00:11 UTC</createdTime>
+<generatorID>13DE9E7F-10C1-670E-172E-63D71052CB3F</generatorID>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<referedAttribute>0A873B1C-0FF8-3827-5F60-5D8D056164E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fotografia" id="BE4BCDBF-CC5E-00BB-1E92-A0CF12720438">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-21 20:02:59 UTC</createdTime>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="empregado_id1" id="D23EA816-DD0E-C17A-6AA3-AC91A0F08545">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-21 20:14:46 UTC</createdTime>
+<generatorID>40D495BB-EF23-B501-A51D-8689BFB20170</generatorID>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
+<engineerTo>
+<item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8E58B8C9-4E49-E8B5-A2E4-9217B03DB07E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D25B19ED-F8D0-2114-6842-BAA2BE190951" name="EMPREGADO PK">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-19 15:41:31 UTC</createdTime>
-<ownerDesignName>Projeto Empresa Dptio RH</ownerDesignName>
+<ownerDesignName>Projeto Empresa Dpto RH</ownerDesignName>
 <engineerTo>
 <item key="35F556BC-5923-C88D-A5E0-004B88871C9F" value="true"/>
 </engineerTo>
