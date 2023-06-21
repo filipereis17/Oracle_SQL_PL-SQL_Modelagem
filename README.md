@@ -14,6 +14,12 @@ No primeiro, aprende-se os fundamentos da linguagem SQL com os temas:
 - Sub-Consultas
 - Operadores SET
 - Comands DML Manipulando Dados
+- Criação e Gerenciamento de Constraints
+- Criação e Gerenciamento de Visões
+- Criação e Gerenciamento de Sequências
+- Criação e Gerenciamento de Índices
+- Criação de Sinônimos
+- SQL*PLUS
 
 ## Oracle PL/SQL
 No segundo, aprende-se os fundamentos da linguagem PL/SQL com os temas:
