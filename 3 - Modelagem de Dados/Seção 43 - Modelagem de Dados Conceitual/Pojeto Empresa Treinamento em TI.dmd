@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Pojeto Empresa Treinamento em TI" id="FB497977-2B2E-90D9-7D40-C5961BE2C1E1" version="3.5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-21 18:38:14 UTC</createdTime>
+<ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FB497977-2B2E-90D9-7D40-C5961BE2C1E1</designId>
+</OSDM_Design>

@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="65E2DF9B-8044-A50A-37C5-956EA9519F07">
+<createdBy>P001530</createdBy>
+<modifiedBy>P001530</modifiedBy>
+<createdTime>2023-06-21 18:38:32 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="22EE34D9-193C-1698-E29A-51BFCABEA94D" otype="Entity" vid="DC12F6F0-C102-7F80-8963-1FF7238FA2CB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="335" y="99" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9B48F603-17DF-40CB-F137-B204E21648B4" otype="Entity" vid="3FC11BCF-6CF2-8486-41F2-6FF9D0E070F3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="96" y="279" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CD713A43-1298-BE10-DB51-84500CAF98B4" otype="Entity" vid="03BC0B85-359A-F5C4-D7CA-BA8270F5EAE0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="578" y="93" width="203" height="296"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E71298C4-6C01-AA76-A864-691F96CB3FF9" otype="Entity" vid="EEB18CDD-F597-9B4F-ABDE-35010431630D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="99" y="100" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F624C3C5-755D-54FC-2603-A5AEA004A9F9" otype="Entity" vid="50810C33-89F0-0ECB-82C1-9817A7201B5A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="329" y="279" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>

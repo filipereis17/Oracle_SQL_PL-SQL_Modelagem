@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="CD713A43-1298-BE10-DB51-84500CAF98B4" name="AGENDA_CURSO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BE5CA272-9F22-8586-3C13-9D77AF292764" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F624C3C5-755D-54FC-2603-A5AEA004A9F9" name="ALUNO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BE5CA272-9F22-8586-3C13-9D77AF292764" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="22EE34D9-193C-1698-E29A-51BFCABEA94D" name="CURSO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BE5CA272-9F22-8586-3C13-9D77AF292764" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E71298C4-6C01-AA76-A864-691F96CB3FF9" name="EMPRESA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BE5CA272-9F22-8586-3C13-9D77AF292764" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9B48F603-17DF-40CB-F137-B204E21648B4" name="INSTRUTOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BE5CA272-9F22-8586-3C13-9D77AF292764" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
