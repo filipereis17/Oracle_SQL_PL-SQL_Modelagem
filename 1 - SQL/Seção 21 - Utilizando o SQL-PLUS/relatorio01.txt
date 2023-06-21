@@ -1,0 +1,161 @@
+SQL> SELECT first_name, last_name, salary
+  2  FROM employees;
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Steven               King                           36000                       
+Neena                Kochhar                        42075                       
+Lex                  De Haan                        42075                       
+Alexander            Hunold                         29160                       
+Bruce                Ernst                          19440                       
+David                Austin                         15552                       
+Valli                Pataballa                      15552                       
+Diana                Lorentz                        13608                       
+Nancy                Greenberg                      27018                       
+Daniel               Faviet                         22275                       
+John                 Chen                           18450                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Ismael               Sciarra                        17325                       
+Jose Manuel          Urman                          17550                       
+Luis                 Popp                           15525                       
+Den                  Raphaely                       24750                       
+Alexander            Khoo                            6975                       
+Shelli               Baida                           6525                       
+Sigal                Tobias                          6300                       
+Guy                  Himuro                          5850                       
+Karen                Colmenares                      5625                       
+Matthew              Weiss                          18000                       
+Adam                 Fripp                          18450                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Payam                Kaufling                       17775                       
+Shanta               Vollman                        14625                       
+Kevin                Mourgos                        13050                       
+Julia                Nayer                           7200                       
+Irene                Mikkilineni                     6075                       
+James                Landry                          5400                       
+Steven               Markle                          4950                       
+Laura                Bissot                          7425                       
+Mozhe                Atkinson                        6300                       
+James                Marlow                          5625                       
+TJ                   Olson                           4725                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Jason                Mallin                          7425                       
+Michael              Rogers                          6525                       
+Ki                   Gee                             5400                       
+Hazel                Philtanker                      4950                       
+Renske               Ladwig                          8100                       
+Stephen              Stiles                          7200                       
+John                 Seo                             6075                       
+Joshua               Patel                           7875                       
+Trenna               Rajs                            7875                       
+Curtis               Davies                          6975                       
+Randall              Matos                           5850                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Peter                Vargas                          5625                       
+John                 Russell                      41926,5                       
+Karen                Partners                    40429,13                       
+Alberto              Errazuriz                      35937                       
+Gerald               Cambrault                   32942,25                       
+Eleni                Zlotkey                     31444,88                       
+Peter                Tucker                      44921,25                       
+David                Bernstein                   28450,13                       
+Peter                Hall                        26952,75                       
+Christopher          Olsen                          23958                       
+Nanette              Cambrault                   22460,63                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Oliver               Tuvault                     20963,25                       
+Janette              King                           35937                       
+Patrick              Sully                       28450,13                       
+Allan                McEwen                      26952,75                       
+Lindsey              Smith                          23958                       
+Louise               Doran                       22460,63                       
+Sarath               Sewall                      20963,25                       
+Clara                Vishney                     31444,88                       
+Danielle             Greene                      28450,13                       
+Mattea               Marvins                      21562,2                       
+David                Lee                          20364,3                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Sundar               Ande                         19166,4                       
+Amit                 Banda                       18567,45                       
+Lisa                 Ozer                        34439,63                       
+Harrison             Bloom                        29947,5                       
+Tayler               Fox                          28749,6                       
+William              Smith                       22161,15                       
+Elizabeth            Bates                       21861,68                       
+Sundita              Kumar                       18267,98                       
+Ellen                Abel                        32942,25                       
+Alyssa               Hutton                       26353,8                       
+Jonathon             Taylor                      25754,85                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Jack                 Livingston                   25155,9                       
+Kimberely            Grant                          15750                       
+Charles              Johnson                     18567,45                       
+Winston              Taylor                          7200                       
+Jean                 Fleaur                          6975                       
+Martha               Sullivan                        5625                       
+Girard               Geoni                           6300                       
+Nandita              Sarchand                        9450                       
+Alexis               Bull                            9225                       
+Julia                Dellinger                       7650                       
+Anthony              Cabrio                          6750                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Kelly                Chung                           8550                       
+Jennifer             Dilly                           8100                       
+Timothy              Gates                           6525                       
+Randall              Perkins                         5625                       
+Sarah                Bell                            9000                       
+Britney              Everett                         8775                       
+Samuel               McCain                          7200                       
+Vance                Jones                           6300                       
+Alana                Walsh                           6975                       
+Kevin                Feeney                          6750                       
+Donald               OConnell                        5850                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Kobe                 Bryant                         48600                       
+Bob                  Dylan                          45000                       
+John                 Lenon                          33750                       
+Rock                 Balboa                          7000                       
+David                Bowie                          33750                       
+Greg                 Lake                           33750                       
+David                Bowie                          22500                       
+Douglas              Grant                           5850                       
+Jennifer             Whalen                          9900                       
+Michael              Hartstein                      29250                       
+Pat                  Fay                            13500                       
+
+FIRST_NAME           LAST_NAME                     SALARY                       
+-------------------- ------------------------- ----------                       
+Susan                Mavris                         14625                       
+Hermann              Baer                           22500                       
+Shelley              Higgins                        27018                       
+William              Gietz                          18675                       
+Eric                 Clapton                        15000                       
+Paul                 Simon                          15000                       
+
+116 linhas selecionadas.
+
+SQL> dir
+SP2-0042: comando desconhecido "dir" - restante da linha ignorado.
+SQL> SPàLL OFF
+SP2-0042: comando desconhecido "SPàLL OFF" - restante da linha ignorado.
+SQL> SPOLL OFF
+SP2-0042: comando desconhecido "SPOLL OFF" - restante da linha ignorado.
+SQL> SPOOL OFF
