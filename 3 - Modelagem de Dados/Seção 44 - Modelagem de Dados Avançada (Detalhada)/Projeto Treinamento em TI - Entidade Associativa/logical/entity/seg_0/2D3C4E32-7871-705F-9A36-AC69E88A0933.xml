@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D3C4E32-7871-705F-9A36-AC69E88A0933" name="TIPO_TELEFONE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:52:22 UTC</createdTime>
+<ownerDesignName>Projeto Treinamento em TI - Entidade Associativa</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TTEL</preferredAbbreviation>
+<shortName>TTEL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_telefone_id" id="5667012A-EE58-CCB8-407A-F2304B9129E9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:52:50 UTC</createdTime>
+<ownerDesignName>Projeto Treinamento em TI - Entidade Associativa</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="5E9ADB1D-637C-FEFB-F344-5ED34695C0DA">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:53:27 UTC</createdTime>
+<ownerDesignName>Projeto Treinamento em TI - Entidade Associativa</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="567B5EBA-E54D-8FBD-A44C-E1DADDD671C0" name="TIPO_TELEFONE PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:53:20 UTC</createdTime>
+<ownerDesignName>Projeto Treinamento em TI - Entidade Associativa</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5667012A-EE58-CCB8-407A-F2304B9129E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

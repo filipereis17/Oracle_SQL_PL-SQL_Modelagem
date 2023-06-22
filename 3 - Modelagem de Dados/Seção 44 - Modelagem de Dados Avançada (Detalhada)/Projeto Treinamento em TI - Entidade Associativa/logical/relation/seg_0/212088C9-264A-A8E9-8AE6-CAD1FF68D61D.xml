@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPO_TELEFONE_TELEFONE" directorySegmentName="seg_0" id="212088C9-264A-A8E9-8AE6-CAD1FF68D61D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:55:48 UTC</createdTime>
+<ownerDesignName>Projeto Treinamento em TI - Entidade Associativa</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<sourcePk>567B5EBA-E54D-8FBD-A44C-E1DADDD671C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2D3C4E32-7871-705F-9A36-AC69E88A0933</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>654AA9F3-319A-4381-CE14-5448F3A539A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

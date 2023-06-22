@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUNO_TELEFONE" directorySegmentName="seg_0" id="02F1D660-C5C5-8981-0519-3C547CE30AED">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:43:46 UTC</createdTime>
+<ownerDesignName>Projeto Treinamento em TI - Entidade Associativa 2</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<sourcePk>8CCC6AF6-9A7B-FD44-4B2B-09454918CED9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F624C3C5-755D-54FC-2603-A5AEA004A9F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>654AA9F3-319A-4381-CE14-5448F3A539A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
