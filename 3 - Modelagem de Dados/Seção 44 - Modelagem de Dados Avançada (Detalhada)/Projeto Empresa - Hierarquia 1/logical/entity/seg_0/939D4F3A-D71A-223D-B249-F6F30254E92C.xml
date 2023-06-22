@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="939D4F3A-D71A-223D-B249-F6F30254E92C" name="FUNCIONARIO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:16:34 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 1</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>FUNC</preferredAbbreviation>
+<shortName>FUNC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="funcionario_id" id="D3BE00A9-A93F-94B9-4DB7-0DD1C4F1FD9E">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:16:49 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 1</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento_id" id="0F0BCD69-B7EF-568A-E363-E368EE448F61">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:19:12 UTC</createdTime>
+<generatorID>B4B27E07-BC81-4380-331D-4B5CFB390E93</generatorID>
+<ownerDesignName>Projeto Empresa - Hierarquia 1</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<referedAttribute>7B9A4F22-D57F-E66A-1EA3-AEB55B52B29E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="divisao_id" id="5F2D52E9-A511-86BF-A14C-0EC7447E399E">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:19:12 UTC</createdTime>
+<generatorID>B4B27E07-BC81-4380-331D-4B5CFB390E93</generatorID>
+<ownerDesignName>Projeto Empresa - Hierarquia 1</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<referedAttribute>74CB3DD9-0251-A1FE-77A9-C9FB49D701CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="empresa_id" id="6C057695-CD2D-D410-7F54-32B80930F5CE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:19:12 UTC</createdTime>
+<generatorID>B4B27E07-BC81-4380-331D-4B5CFB390E93</generatorID>
+<ownerDesignName>Projeto Empresa - Hierarquia 1</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<referedAttribute>AC803AC3-7C8D-4163-8B24-1A8EE3F50A98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E95D3A4C-3CBA-BC5F-D40E-524D8A1D785C" name="FUNCIONARIO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:17:25 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 1</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3BE00A9-A93F-94B9-4DB7-0DD1C4F1FD9E</attributeRef>
+<attributeRef>0F0BCD69-B7EF-568A-E363-E368EE448F61</attributeRef>
+<attributeRef>5F2D52E9-A511-86BF-A14C-0EC7447E399E</attributeRef>
+<attributeRef>6C057695-CD2D-D410-7F54-32B80930F5CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

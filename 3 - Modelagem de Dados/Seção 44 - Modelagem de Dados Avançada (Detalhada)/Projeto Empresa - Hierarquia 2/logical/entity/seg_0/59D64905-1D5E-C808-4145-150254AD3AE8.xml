@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59D64905-1D5E-C808-4145-150254AD3AE8" name="EMPRESA">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:14:28 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 2</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EMPR</preferredAbbreviation>
+<shortName>EMPR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="empresa_id" id="CA6C9053-8E6E-EED0-1C76-05A1181C91EF">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:14:46 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 2</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F592AAC-201B-7ADC-A9AD-7D070084DDC7" name="EMPRESA PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:17:16 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 2</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA6C9053-8E6E-EED0-1C76-05A1181C91EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

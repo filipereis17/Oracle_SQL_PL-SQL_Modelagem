@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" mainViewID="228FFAB5-F674-8B08-E7AF-D46B2551AFF9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:14:20 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

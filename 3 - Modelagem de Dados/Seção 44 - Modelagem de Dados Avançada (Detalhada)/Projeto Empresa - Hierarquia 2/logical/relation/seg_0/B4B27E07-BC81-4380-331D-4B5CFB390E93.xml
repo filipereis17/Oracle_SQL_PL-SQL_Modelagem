@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPARTAMENTO_FUNCIONARIO" directorySegmentName="seg_0" id="B4B27E07-BC81-4380-331D-4B5CFB390E93">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:19:12 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 2</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<sourcePk>B62BA458-F54D-13F7-E3A5-DF254F381E5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E3AAC5C-E55B-6DE2-D8B7-B75E4E3BEBB0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>939D4F3A-D71A-223D-B249-F6F30254E92C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

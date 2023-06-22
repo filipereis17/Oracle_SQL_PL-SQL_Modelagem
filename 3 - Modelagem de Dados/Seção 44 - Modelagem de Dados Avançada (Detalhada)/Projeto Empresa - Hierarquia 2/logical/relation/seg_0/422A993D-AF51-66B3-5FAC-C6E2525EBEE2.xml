@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIVISAO_DEPARTAMENTO" directorySegmentName="seg_0" id="422A993D-AF51-66B3-5FAC-C6E2525EBEE2">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:18:55 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Hierarquia 2</ownerDesignName>
+<engineerTo>
+<item key="CEF3DD07-F624-9AD5-60F2-6608A3B960B8" value="true"/>
+</engineerTo>
+<sourcePk>596DE734-6EF2-B421-5753-2C23F4CBA111</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5400F05C-0169-17CA-4A7A-BDCDA67863B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E3AAC5C-E55B-6DE2-D8B7-B75E4E3BEBB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
