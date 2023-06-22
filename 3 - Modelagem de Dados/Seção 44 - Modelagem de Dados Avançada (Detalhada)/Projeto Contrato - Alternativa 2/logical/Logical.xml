@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="502E8D68-3B4D-6734-7CA7-581B5D5FBA84" mainViewID="EF408E13-5B7B-F8C7-D62D-5E943DAE3AEF">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:00:55 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

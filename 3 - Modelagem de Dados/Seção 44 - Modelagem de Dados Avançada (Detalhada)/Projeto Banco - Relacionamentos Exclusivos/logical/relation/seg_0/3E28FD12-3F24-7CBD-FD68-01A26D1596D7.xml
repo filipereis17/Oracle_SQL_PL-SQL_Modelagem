@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BANCO_AGENCIA" directorySegmentName="seg_0" id="3E28FD12-3F24-7CBD-FD68-01A26D1596D7">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:16:10 UTC</createdTime>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<sourcePk>DC278EB8-A37E-6AF6-3DD7-0BE8C65F5EC0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2334C3D3-4B11-6502-74E6-87D6DD39480E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>83D94125-D5BC-E581-9E8C-0D578434E645</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

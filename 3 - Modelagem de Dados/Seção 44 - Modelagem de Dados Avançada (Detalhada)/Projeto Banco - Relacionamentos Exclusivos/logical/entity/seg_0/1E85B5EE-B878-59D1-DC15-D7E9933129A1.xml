@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E85B5EE-B878-59D1-DC15-D7E9933129A1" name="CONTA_CORRENTE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:14:35 UTC</createdTime>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CCOR</preferredAbbreviation>
+<shortName>CCOR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_cc" id="E478A3BA-B7E8-97FF-0C6D-9429937EFA04">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:14:52 UTC</createdTime>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_agencia" id="39F9E699-608E-7AC5-7004-859F857B477D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:16:58 UTC</createdTime>
+<generatorID>D1499B2B-E797-FAA4-C8B3-705B3A507A90</generatorID>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<referedAttribute>49E0BB52-AC8D-6456-AA12-DE7D3C4EC36D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_banco" id="56FABEB6-7C42-C628-C478-0C9B17080472">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:16:58 UTC</createdTime>
+<generatorID>D1499B2B-E797-FAA4-C8B3-705B3A507A90</generatorID>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<referedAttribute>20550D93-7FDC-5E54-0876-7B615A7E518B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pessoa_fisica_id" id="571E7312-EC21-99E6-EC53-6079470D06A6">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:40:40 UTC</createdTime>
+<generatorID>2C8A51F8-F8DC-3C7F-0C7C-833191DCE417</generatorID>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<referedAttribute>5CDC77F6-9C26-24D5-4F21-33273CF32AE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pessoa_juridica_id" id="13987B07-5E50-BF5A-7470-185F76615DA5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:41:02 UTC</createdTime>
+<generatorID>123B996B-F935-BFBB-7EC6-40CDAD148089</generatorID>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<referedAttribute>1347E346-B384-D0C7-DCEF-7EB39B48F7BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C733FD7-9308-982E-3297-51344FEA58AC" name="CONTA_CORRENTE PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:15:07 UTC</createdTime>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E478A3BA-B7E8-97FF-0C6D-9429937EFA04</attributeRef>
+<attributeRef>39F9E699-608E-7AC5-7004-859F857B477D</attributeRef>
+<attributeRef>56FABEB6-7C42-C628-C478-0C9B17080472</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

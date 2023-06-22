@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFDC04D0-DBD1-5620-85BD-AB14E8059744" name="CONTRATO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:03:01 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CONT</preferredAbbreviation>
+<shortName>CONT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contrato_id" id="2AA29CE8-192E-E874-8F86-DB0E589BDF94">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:03:24 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio " id="45E4E49A-78C0-7053-4BC7-741C1F6F39B5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:03:57 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_prevista_entrega" id="8F1EE006-B6E2-EE40-93EF-7FC028FB4999">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:04:16 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrega" id="9EF2356C-19E4-02F9-BEDE-1750546FF863">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:04:32 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="C1AD8FE9-E479-387C-7509-72236D88B8D4">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:04:50 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="3A4E1C7E-6D9D-7A4B-B018-3F9A4ADCAEA7">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:05:29 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="1428407B-F8A7-7748-5D59-5FBF81396ED1">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:05:43 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4139563-3FF1-7386-F76F-E74A299FB3FD" name="CONTRATO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:03:43 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AA29CE8-192E-E874-8F86-DB0E589BDF94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

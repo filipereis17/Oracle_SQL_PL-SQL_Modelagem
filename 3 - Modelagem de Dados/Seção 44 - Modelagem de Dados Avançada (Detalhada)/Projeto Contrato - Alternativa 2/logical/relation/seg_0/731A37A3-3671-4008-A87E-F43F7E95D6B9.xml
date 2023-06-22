@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO_HISTORICO_CONTRATO" directorySegmentName="seg_0" id="731A37A3-3671-4008-A87E-F43F7E95D6B9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:09:50 UTC</createdTime>
+<ownerDesignName>Projeto Contrato - Alternativa 2</ownerDesignName>
+<engineerTo>
+<item key="F76C3EBD-FB65-5DFC-B04A-F2D875C7D6E9" value="true"/>
+</engineerTo>
+<sourcePk>D4139563-3FF1-7386-F76F-E74A299FB3FD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFDC04D0-DBD1-5620-85BD-AB14E8059744</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41F246DC-BF70-6B2D-69C2-407E2B71723E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

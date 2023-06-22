@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA_FISICA_CONTA_CORRENTE" directorySegmentName="seg_0" id="2C8A51F8-F8DC-3C7F-0C7C-833191DCE417">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:40:40 UTC</createdTime>
+<ownerDesignName>Projeto Banco - Relacionamentos Exclusivos</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<sourcePk>208776C8-1162-1BF4-C324-A0E5F56F06A6</sourcePk>
+<arc>6E3F3FAE-7643-0689-2D76-AF374B1F4FD8</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A55996AC-CC89-6236-F1FC-C1D2F9AFB5D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E85B5EE-B878-59D1-DC15-D7E9933129A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
