@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEEC9883-A9E9-A7B9-9DB9-AE63BA45D8BC" name="PESSOA_CARGO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:23:59 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PESC</preferredAbbreviation>
+<shortName>PESC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pessoa_cargo_id" id="5E4B4511-56F1-48A1-E39F-74C696CDEF82">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 20:50:10 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="6D7B7FDA-BEE8-8BC6-1294-B085CD4831E2">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:24:13 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pessoa_id" id="6F809B90-8299-093F-0196-EE94391AEBFF">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:26:02 UTC</createdTime>
+<generatorID>DE8885FD-C0AF-AB40-56C4-3A96B0E5D96D</generatorID>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<referedAttribute>83C25A53-0199-0867-C171-BF47E95D20F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_id" id="0EDBCD61-D8B0-BC44-3226-25515CEF5217">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:26:18 UTC</createdTime>
+<generatorID>AB59E020-F8D3-570F-8ED4-76E96D821981</generatorID>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<referedAttribute>9E20D494-AC64-F004-81DF-D451819706B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECC5C617-C9EE-F5C3-AA81-DCED4A1C3DDA" name="PESSOA_CARGO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:24:28 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E4B4511-56F1-48A1-E39F-74C696CDEF82</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="576CAA7A-A85A-6B48-00C7-67A40F32B16A" name="Key_2">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 20:52:03 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<newElementsIDs>6D7B7FDA-BEE8-8BC6-1294-B085CD4831E2,DE8885FD-C0AF-AB40-56C4-3A96B0E5D96D,AB59E020-F8D3-570F-8ED4-76E96D821981</newElementsIDs>
+<usedAttributes>
+<attributeRef>6D7B7FDA-BEE8-8BC6-1294-B085CD4831E2</attributeRef>
+<attributeRef>6F809B90-8299-093F-0196-EE94391AEBFF</attributeRef>
+<attributeRef>0EDBCD61-D8B0-BC44-3226-25515CEF5217</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

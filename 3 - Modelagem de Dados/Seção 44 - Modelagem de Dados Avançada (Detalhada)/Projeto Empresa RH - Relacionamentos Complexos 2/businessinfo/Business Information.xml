@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3FE3AE71-74B0-9194-C790-16F95E88D2C9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:15:54 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

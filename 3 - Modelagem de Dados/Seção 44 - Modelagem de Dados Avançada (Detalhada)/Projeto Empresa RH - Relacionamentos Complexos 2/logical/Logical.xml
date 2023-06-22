@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E22D9F14-2FAE-EE6D-A3CC-DD4B9343A412" mainViewID="201557D6-4C55-A6D5-5C47-7BCE0028E427">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:15:54 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

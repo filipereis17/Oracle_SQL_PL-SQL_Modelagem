@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA_CARGO" directorySegmentName="seg_0" id="DE8885FD-C0AF-AB40-56C4-3A96B0E5D96D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:26:02 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 2</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<sourcePk>1D7C6799-B4AB-FBAD-DCB6-3F45A3293186</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20605697-B6C4-E175-1EEB-50AEFB76EDF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CEEC9883-A9E9-A7B9-9DB9-AE63BA45D8BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
