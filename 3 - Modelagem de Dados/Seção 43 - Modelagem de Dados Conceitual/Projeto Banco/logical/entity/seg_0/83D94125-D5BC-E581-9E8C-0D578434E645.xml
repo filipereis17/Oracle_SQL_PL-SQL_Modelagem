@@ -17,7 +17,7 @@
 <preferredAbbreviation>AGEN</preferredAbbreviation>
 <shortName>AGEN</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo" id="49E0BB52-AC8D-6456-AA12-DE7D3C4EC36D">
+<Attribute name="codigo_agencia" id="49E0BB52-AC8D-6456-AA12-DE7D3C4EC36D">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-22 13:14:15 UTC</createdTime>
 <ownerDesignName>Projeto Banco</ownerDesignName>
@@ -30,7 +30,7 @@
 <dataTypeSize>8</dataTypeSize>
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo1" id="20550D93-7FDC-5E54-0876-7B615A7E518B">
+<Attribute name="codigo_banco" id="20550D93-7FDC-5E54-0876-7B615A7E518B">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-22 13:16:10 UTC</createdTime>
 <generatorID>3E28FD12-3F24-7CBD-FD68-01A26D1596D7</generatorID>
@@ -43,7 +43,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="8E5203A7-6452-A806-F3E7-3D00B544C377">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:10:10 UTC</createdTime>
+<ownerDesignName>Projeto Banco</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

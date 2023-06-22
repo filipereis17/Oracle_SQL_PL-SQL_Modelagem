@@ -17,7 +17,7 @@
 <preferredAbbreviation>BANC</preferredAbbreviation>
 <shortName>BANC</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo" id="0A898D96-705C-B39C-82CB-D8F2D464305E">
+<Attribute name="codigo_banco" id="0A898D96-705C-B39C-82CB-D8F2D464305E">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-22 13:13:32 UTC</createdTime>
 <ownerDesignName>Projeto Banco</ownerDesignName>

@@ -17,7 +17,7 @@
 <preferredAbbreviation>CCOR</preferredAbbreviation>
 <shortName>CCOR</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="numero" id="E478A3BA-B7E8-97FF-0C6D-9429937EFA04">
+<Attribute name="numero_cc" id="E478A3BA-B7E8-97FF-0C6D-9429937EFA04">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-22 13:14:52 UTC</createdTime>
 <ownerDesignName>Projeto Banco</ownerDesignName>
@@ -30,7 +30,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo" id="39F9E699-608E-7AC5-7004-859F857B477D">
+<Attribute name="codigo_agencia" id="39F9E699-608E-7AC5-7004-859F857B477D">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-22 13:16:58 UTC</createdTime>
 <generatorID>D1499B2B-E797-FAA4-C8B3-705B3A507A90</generatorID>
@@ -45,7 +45,7 @@
 <dataTypeSize>8</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo1" id="56FABEB6-7C42-C628-C478-0C9B17080472">
+<Attribute name="codigo_banco" id="56FABEB6-7C42-C628-C478-0C9B17080472">
 <createdBy>P001530</createdBy>
 <createdTime>2023-06-22 13:16:58 UTC</createdTime>
 <generatorID>D1499B2B-E797-FAA4-C8B3-705B3A507A90</generatorID>
@@ -58,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
