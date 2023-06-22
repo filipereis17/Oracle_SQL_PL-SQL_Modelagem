@@ -43,18 +43,19 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefone" id="518757D9-8F2E-0909-4891-5246C31B230D">
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CC5F9B3-24E7-2350-A0EF-74AE0477C733" name="INSTRUTOR PK">
 <createdBy>P001530</createdBy>
-<createdTime>2023-06-21 18:46:28 UTC</createdTime>
+<createdTime>2023-06-22 12:36:06 UTC</createdTime>
 <ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
 <engineerTo>
 <item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A980A4E-1E5D-1CB3-4305-A9D11444329B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

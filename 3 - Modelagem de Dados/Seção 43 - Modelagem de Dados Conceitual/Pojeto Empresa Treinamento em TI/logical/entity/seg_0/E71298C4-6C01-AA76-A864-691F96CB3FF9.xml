@@ -44,4 +44,18 @@
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDDC5C35-4F0C-1B8A-FE13-4C9AC40960BD" name="EMPRESA PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:35:56 UTC</createdTime>
+<ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D3D896D-5894-C4FC-2065-49A0FC7DDE99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -42,5 +42,64 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="empresa_id" id="F0BF3882-1C5B-2A19-8C4C-257DC172CEF0">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:36:00 UTC</createdTime>
+<generatorID>E29586C3-5999-6014-B4FF-7176871EE139</generatorID>
+<ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<referedAttribute>5D3D896D-5894-C4FC-2065-49A0FC7DDE99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instrutor_id" id="74CE1152-73CC-65C0-4148-E63CE6F81D7D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:36:07 UTC</createdTime>
+<generatorID>A6920300-0D32-B399-8089-B5C5F62CBCCC</generatorID>
+<ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<referedAttribute>5A980A4E-1E5D-1CB3-4305-A9D11444329B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso_id" id="153E768B-4BBB-5F38-6E40-DA5DF5E71338">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:36:37 UTC</createdTime>
+<generatorID>AFB8494B-52A9-2639-965F-87B25B869B47</generatorID>
+<ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<referedAttribute>04B88E06-F995-8F87-FEC6-C48A44AEA301</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6145F83C-3075-EC81-BADC-816C3860148D" name="AGENDA_CURSO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 12:35:42 UTC</createdTime>
+<ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>238F2115-6551-3B91-4F1E-02DE87219C92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

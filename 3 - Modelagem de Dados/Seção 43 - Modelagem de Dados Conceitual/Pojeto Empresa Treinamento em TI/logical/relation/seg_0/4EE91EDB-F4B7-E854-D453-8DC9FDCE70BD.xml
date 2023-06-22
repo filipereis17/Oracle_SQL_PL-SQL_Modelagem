@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSO_AGENDA_CURSO" directorySegmentName="seg_0" id="AFB8494B-52A9-2639-965F-87B25B869B47">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INSTRUTOR_TELEFONE" directorySegmentName="seg_0" id="4EE91EDB-F4B7-E854-D453-8DC9FDCE70BD">
 <createdBy>P001530</createdBy>
-<createdTime>2023-06-21 19:12:29 UTC</createdTime>
+<createdTime>2023-06-22 12:42:59 UTC</createdTime>
 <ownerDesignName>Pojeto Empresa Treinamento em TI</ownerDesignName>
 <engineerTo>
 <item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
 </engineerTo>
-<sourcePk>6C4C9980-CB6B-DA97-387F-310AFBB349E3</sourcePk>
+<sourcePk>3CC5F9B3-24E7-2350-A0EF-74AE0477C733</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>22EE34D9-193C-1698-E29A-51BFCABEA94D</sourceEntity>
+<sourceEntity>9B48F603-17DF-40CB-F137-B204E21648B4</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>CD713A43-1298-BE10-DB51-84500CAF98B4</targetEntity>
+<targetEntity>654AA9F3-319A-4381-CE14-5448F3A539A4</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
