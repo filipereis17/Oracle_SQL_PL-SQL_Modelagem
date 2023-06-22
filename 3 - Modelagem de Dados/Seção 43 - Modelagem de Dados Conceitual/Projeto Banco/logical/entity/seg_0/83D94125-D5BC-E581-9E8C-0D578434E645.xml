@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83D94125-D5BC-E581-9E8C-0D578434E645" name="AGENCIA">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:13:59 UTC</createdTime>
+<ownerDesignName>Projeto Banco</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>AGEN</preferredAbbreviation>
+<shortName>AGEN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="49E0BB52-AC8D-6456-AA12-DE7D3C4EC36D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:14:15 UTC</createdTime>
+<ownerDesignName>Projeto Banco</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="20550D93-7FDC-5E54-0876-7B615A7E518B">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:16:10 UTC</createdTime>
+<generatorID>3E28FD12-3F24-7CBD-FD68-01A26D1596D7</generatorID>
+<ownerDesignName>Projeto Banco</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<referedAttribute>0A898D96-705C-B39C-82CB-D8F2D464305E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="163D95A0-1030-920E-4F11-E62B6F93BC58" name="AGENCIA PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:14:27 UTC</createdTime>
+<ownerDesignName>Projeto Banco</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49E0BB52-AC8D-6456-AA12-DE7D3C4EC36D</attributeRef>
+<attributeRef>20550D93-7FDC-5E54-0876-7B615A7E518B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

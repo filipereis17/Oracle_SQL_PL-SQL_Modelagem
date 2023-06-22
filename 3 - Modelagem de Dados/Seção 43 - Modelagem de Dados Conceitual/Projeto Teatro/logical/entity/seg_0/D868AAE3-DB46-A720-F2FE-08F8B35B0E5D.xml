@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D868AAE3-DB46-A720-F2FE-08F8B35B0E5D" name="INGRESSO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:07:14 UTC</createdTime>
+<ownerDesignName>Projeto Teatro</ownerDesignName>
+<engineerTo>
+<item key="668C334A-7FED-B594-C9F3-E02FA58A8B8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>INGR</preferredAbbreviation>
+<shortName>INGR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dt_performance" id="AF7D6C2B-EC5D-E7CA-DE71-C175D602FAFA">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:07:31 UTC</createdTime>
+<ownerDesignName>Projeto Teatro</ownerDesignName>
+<engineerTo>
+<item key="668C334A-7FED-B594-C9F3-E02FA58A8B8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assento" id="E6EA6629-2745-1F51-063F-8D41425BB52C">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:07:58 UTC</createdTime>
+<ownerDesignName>Projeto Teatro</ownerDesignName>
+<engineerTo>
+<item key="668C334A-7FED-B594-C9F3-E02FA58A8B8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A14A4F52-530C-4C2E-12C9-231B511609F9" name="INGRESSO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:07:53 UTC</createdTime>
+<ownerDesignName>Projeto Teatro</ownerDesignName>
+<engineerTo>
+<item key="668C334A-7FED-B594-C9F3-E02FA58A8B8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF7D6C2B-EC5D-E7CA-DE71-C175D602FAFA</attributeRef>
+<attributeRef>E6EA6629-2745-1F51-063F-8D41425BB52C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

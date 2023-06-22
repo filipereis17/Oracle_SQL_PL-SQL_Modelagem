@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENCIA_CONTA_CORRENTE" directorySegmentName="seg_0" id="D1499B2B-E797-FAA4-C8B3-705B3A507A90">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:16:58 UTC</createdTime>
+<ownerDesignName>Projeto Banco</ownerDesignName>
+<engineerTo>
+<item key="C1EA6277-02BE-FA81-5C3F-90D45CD9A62C" value="true"/>
+</engineerTo>
+<sourcePk>163D95A0-1030-920E-4F11-E62B6F93BC58</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83D94125-D5BC-E581-9E8C-0D578434E645</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E85B5EE-B878-59D1-DC15-D7E9933129A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

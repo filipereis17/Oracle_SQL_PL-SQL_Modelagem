@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto Teatro" id="F0EFA92C-A10D-FFD8-55C2-3DEE71AE8B0A" version="3.5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 13:05:05 UTC</createdTime>
+<ownerDesignName>Projeto Teatro</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F0EFA92C-A10D-FFD8-55C2-3DEE71AE8B0A</designId>
+</OSDM_Design>
