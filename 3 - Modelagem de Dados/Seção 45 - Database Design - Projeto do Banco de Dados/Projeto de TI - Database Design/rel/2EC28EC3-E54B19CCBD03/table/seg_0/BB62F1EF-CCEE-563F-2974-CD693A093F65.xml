@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB62F1EF-CCEE-563F-2974-CD693A093F65" name="TELEFONE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>654AA9F3-319A-4381-CE14-5448F3A539A4</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<abbreviation>FONE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone_id" id="F484F90B-D8A5-2204-FEC3-F04D1860FA96">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>379C3235-7BFD-CF11-2595-0ED9637CBDEE</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="0563062F-C93F-6F0B-9C9D-DD297F4C11B6">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>2C4B025F-7211-5CD3-9430-0F4810BFEF23</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUTOR_instrutor_id" id="D943D547-2A88-8FD0-7A54-835553D048A9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>60743797-485D-30B7-B214-E73DD3787925</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4DC35B6-1840-E3B4-7EC5-342FDF7D3F31" referredColumn="88C9813D-CE5A-55C5-D05E-73DE4A13F6A6"/>
+</associations>
+</Column>
+<Column name="ALUNO_aluno_id" id="B36CC292-2538-82E1-647A-DACCF0CAB0E1">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>35824535-5926-B0C2-E50F-EF2F93DA2B37</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A66D613-DED9-1804-24CF-9C5235100D4A" referredColumn="DE1B8A22-8E74-4FBB-182D-ED6A23FE04A9"/>
+</associations>
+</Column>
+<Column name="TIPO_TELEFONE_tipo_telefone_id" id="6135B5F7-81AA-14F5-E82B-4044C231C54B">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>B463B6DE-8D4E-787F-5544-E90D9DDA0BC4</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DA6F868-AE4D-39DF-0516-A9A5C24F0376" referredColumn="8787BA54-1A9F-3E13-A45D-941B3D4BFA55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A0A0D98-9576-A4CB-6774-2E3ED05C02C3" name="TELEFONE_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>91F03DB8-70D3-F80C-2BFE-B867517307F3</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F484F90B-D8A5-2204-FEC3-F04D1860FA96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9183AF0E-0AEC-BE3D-7A6A-82911859AB28" name="TELEFONE_ALUNO_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>02F1D660-C5C5-8981-0519-3C547CE30AED</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36CC292-2538-82E1-647A-DACCF0CAB0E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4962397C-34EE-C1DA-D486-E74C3C0D9798" name="TELEFONE_INSTRUTOR_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>4EE91EDB-F4B7-E854-D453-8DC9FDCE70BD</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D943D547-2A88-8FD0-7A54-835553D048A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2CDA053-C23C-4F99-077B-375A5A511E78" name="TELEFONE_TIPO_TELEFONE_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>212088C9-264A-A8E9-8AE6-CAD1FF68D61D</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6135B5F7-81AA-14F5-E82B-4044C231C54B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22E04130-9299-B151-A9E6-C2A010F9B4C7" name="PEDIDO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>00E3C22A-C142-FF3C-ED0E-DF88F71C3625</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pedido_id" id="3309266A-8E52-3D3D-BD51-4799E6AC413B">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>101349A1-8796-1A53-A165-0FC78AA3D0D2</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pedido" id="92B69CB8-8C21-3212-1E1B-37C029DB6E02">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>1DCBC9EE-BEE3-8F9B-A5D3-F9B554EAC48D</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="7338739A-A6D1-19D7-A987-A8FD75501924">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>9280221A-0B2F-2320-FA17-4B0A53035541</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="285CE3AA-8D75-E94F-CB3B-C5A9BA256FE5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>C433B39D-5052-BB99-98FC-87216D0CFE5C</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_cliente_id" id="BFA15B99-5B81-EAC2-3E20-6591B8027478">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>13A674BD-1A6F-E083-F5F3-56F9A727B83A</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E662B0A1-D5DE-EDB1-7B5F-17D56E423AFE" referredColumn="84F79CC6-BC3C-A399-C270-6244D8C48EB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="753A54B0-9077-B1DE-86CC-9C2EF32D0EB7" name="PEDIDO_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>D5ADE93D-AFA5-E9A3-2542-A9875B70E175</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3309266A-8E52-3D3D-BD51-4799E6AC413B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9744E2E3-9DD9-D073-26D0-EF88B58CC62E" name="PEDIDO_CLIENTE_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>47B3DF3A-02B1-FF22-5153-F64EC736B22B</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFA15B99-5B81-EAC2-3E20-6591B8027478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

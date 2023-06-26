@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUTO_ITEM" directorySegmentName="seg_0" id="5D5599D5-C415-C8E7-E008-FCE45829EAC8">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:48:25 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<sourcePk>3EDAB00F-734D-0ACB-3454-CB1F0F2519AA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E27EC004-C8EF-C0A5-E5BC-8678F64DCD0D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60EA4DD8-73F0-9D60-AAC4-E24C9472C4CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

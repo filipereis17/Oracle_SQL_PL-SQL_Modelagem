@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSO_INSTRUTOR_CURSO" directorySegmentName="seg_0" id="494D478C-C18F-3F77-9A48-7DD64DE82C3D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:41:15 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<sourcePk>6C4C9980-CB6B-DA97-387F-310AFBB349E3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22EE34D9-193C-1698-E29A-51BFCABEA94D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1BF81FA4-24AF-A8EA-2CDA-066A2DDF7522</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

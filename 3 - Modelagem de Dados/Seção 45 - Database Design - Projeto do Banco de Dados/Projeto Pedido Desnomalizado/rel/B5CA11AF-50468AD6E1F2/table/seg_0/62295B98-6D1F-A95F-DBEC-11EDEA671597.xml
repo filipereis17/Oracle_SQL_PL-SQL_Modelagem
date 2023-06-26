@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62295B98-6D1F-A95F-DBEC-11EDEA671597" name="PRODUTO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>E27EC004-C8EF-C0A5-E5BC-8678F64DCD0D</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produto_id" id="DFF38A24-BC70-C651-0B11-AC0F18149B27">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>600E048E-58DC-6ADB-6644-8C730EE05D6C</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="0C782E56-8FB5-5641-79E4-1F3BA37495F9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>42118767-7647-158A-57F3-5690EF1C7DB3</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="14DB4BDC-5D43-BDD6-D08D-9C158D6C1D93">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>A9E2068B-CC3B-CE27-801C-F76128AF4F0C</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74B569C4-CD45-076C-6FF0-6C064DCE3766" name="PRODUTO_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>3EDAB00F-734D-0ACB-3454-CB1F0F2519AA</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF38A24-BC70-C651-0B11-AC0F18149B27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

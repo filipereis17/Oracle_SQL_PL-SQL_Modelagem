@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="224EE78B-23CF-75B6-2162-7383E8A964F1" name="INSTRUTOR_CURSO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>1BF81FA4-24AF-A8EA-2CDA-066A2DDF7522</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<abbreviation>INSC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="instrutor_curso_id" id="99478D65-54B7-A584-310F-938A67656008">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>E651D25F-5B91-A972-1435-F047F81DE966</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="taxa_hora" id="D8813439-DE48-C89A-95B6-1579412C73B2">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>C6318A48-1C5C-B836-7968-194A58F8D5DD</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUTOR_instrutor_id" id="81218B07-53FE-F9FB-9FE2-21526B53E83A">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>2214D6C2-363D-CF32-B22B-D8B42C30FFCB</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0A1A062-C9C5-B0ED-30B1-9E0A09D41194" referredColumn="88C9813D-CE5A-55C5-D05E-73DE4A13F6A6"/>
+</associations>
+</Column>
+<Column name="CURSO_curso_id" id="A3ECC285-DFA0-96F5-C173-642CA4873DC6">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>EB921E81-48E7-81B3-4B87-3734C526F579</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E5A382B-6E1F-AA3A-900A-61B940C98802" referredColumn="057FF805-0333-BDE1-50A7-98D834499013"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CDF4B06-0D18-36FF-E01A-BDFD74DBD088" name="INSTRUTOR_CURSO_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>48422C58-9018-2168-E3B6-FFC42FC15F99</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99478D65-54B7-A584-310F-938A67656008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC9BADA2-5C63-49E6-FEDD-2D07C6D1EC3B" name="INSTRUTOR_CURSO_instrutor_id_curso_id_UN">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>5BF6E09E-8175-C5D6-ED88-50593B9DABF3</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81218B07-53FE-F9FB-9FE2-21526B53E83A"/>
+<colUsage columnID="A3ECC285-DFA0-96F5-C173-642CA4873DC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB6A16E-7B63-143A-CC60-3C100D119873" name="INSTRUTOR_CURSO_CURSO_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>494D478C-C18F-3F77-9A48-7DD64DE82C3D</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3ECC285-DFA0-96F5-C173-642CA4873DC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D52757A6-6819-EE62-2AF5-C9E6E1A3144A" name="INSTRUTOR_CURSO_INSTRUTOR_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>0107342A-38FE-A393-554A-9F88F73A0639</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81218B07-53FE-F9FB-9FE2-21526B53E83A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

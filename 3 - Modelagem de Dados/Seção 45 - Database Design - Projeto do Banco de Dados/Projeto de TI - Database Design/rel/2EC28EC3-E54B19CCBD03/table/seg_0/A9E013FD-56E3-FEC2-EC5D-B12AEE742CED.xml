@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9E013FD-56E3-FEC2-EC5D-B12AEE742CED" name="TIPO_TELEFONE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>2D3C4E32-7871-705F-9A36-AC69E88A0933</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<abbreviation>TTEL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_telefone_id" id="8787BA54-1A9F-3E13-A45D-941B3D4BFA55">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>5667012A-EE58-CCB8-407A-F2304B9129E9</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="4EA838A3-6BB6-FC34-D780-AEDDDEC129D3">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>5E9ADB1D-637C-FEFB-F344-5ED34695C0DA</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6F3C757-47A6-C533-1C74-C3263484C010" name="TIPO_TELEFONE_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>567B5EBA-E54D-8FBD-A44C-E1DADDD671C0</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8787BA54-1A9F-3E13-A45D-941B3D4BFA55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00E3C22A-C142-FF3C-ED0E-DF88F71C3625" name="PEDIDO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:44:13 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pedido_id" id="101349A1-8796-1A53-A165-0FC78AA3D0D2">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:44:31 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pedido" id="1DCBC9EE-BEE3-8F9B-A5D3-F9B554EAC48D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:44:48 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="9280221A-0B2F-2320-FA17-4B0A53035541">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:45:02 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="C433B39D-5052-BB99-98FC-87216D0CFE5C">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:45:21 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="13A674BD-1A6F-E083-F5F3-56F9A727B83A">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:47:55 UTC</createdTime>
+<generatorID>47B3DF3A-02B1-FF22-5153-F64EC736B22B</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<referedAttribute>D1ED6CC1-F445-C668-E888-B2F344E81FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5ADE93D-AFA5-E9A3-2542-A9875B70E175" name="PEDIDO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:44:47 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>101349A1-8796-1A53-A165-0FC78AA3D0D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

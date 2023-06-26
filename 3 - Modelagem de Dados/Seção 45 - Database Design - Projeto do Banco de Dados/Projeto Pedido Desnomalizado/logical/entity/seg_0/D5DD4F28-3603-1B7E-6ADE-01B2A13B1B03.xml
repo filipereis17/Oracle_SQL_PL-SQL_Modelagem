@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5DD4F28-3603-1B7E-6ADE-01B2A13B1B03" name="CLIENTE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:45:40 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="D1ED6CC1-F445-C668-E888-B2F344E81FE5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:45:47 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="A97FB381-3F00-CA10-B9A8-0FE67E93887F">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:01 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="710B39FB-7951-16B2-78EF-CD2939DB7768" name="CLIENTE PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:00 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1ED6CC1-F445-C668-E888-B2F344E81FE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

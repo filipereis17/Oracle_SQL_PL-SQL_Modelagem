@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="980D6C53-A5B5-18FE-3E9C-72D373085C09" name="AGENDA_CURSO_ALUNO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AGENDA_CURSO_agenda_curso_id" id="BBAB5120-E944-9650-9CB1-00226EC4F901">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="440473FE-B951-6025-4CEB-7AA2D51C9514" referredColumn="73B75453-9591-3494-6D87-47F39E1C5E3D"/>
+</associations>
+</Column>
+<Column name="ALUNO_aluno_id" id="51DC951F-EED2-6ADE-E0CE-ACE054F98B76">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5B507EF-A7D8-5783-BB18-D693BAF1E0AD" referredColumn="DE1B8A22-8E74-4FBB-182D-ED6A23FE04A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7666F02-A52C-348E-1C44-B9E916289686" name="AGENDA_CURSO_ALUNO_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBAB5120-E944-9650-9CB1-00226EC4F901"/>
+<colUsage columnID="51DC951F-EED2-6ADE-E0CE-ACE054F98B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C1F5B25-FF89-7E70-B999-1BE233710AD2" name="AGENDA_CURSO_ALUNO_AGENDA_CURSO_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>38BAC05D-935E-DA98-5EB2-E5F8D141DB25</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBAB5120-E944-9650-9CB1-00226EC4F901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58DC58AA-F80F-172A-223E-8E2CC466CFA8" name="AGENDA_CURSO_ALUNO_ALUNO_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>38BAC05D-935E-DA98-5EB2-E5F8D141DB25</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51DC951F-EED2-6ADE-E0CE-ACE054F98B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

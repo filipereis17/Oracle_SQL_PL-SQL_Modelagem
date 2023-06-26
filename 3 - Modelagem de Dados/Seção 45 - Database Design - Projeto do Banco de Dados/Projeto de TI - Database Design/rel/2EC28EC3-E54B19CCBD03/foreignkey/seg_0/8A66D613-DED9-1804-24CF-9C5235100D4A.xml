@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A66D613-DED9-1804-24CF-9C5235100D4A" containerWithKeyObject="BB62F1EF-CCEE-563F-2974-CD693A093F65" localFKIndex="9183AF0E-0AEC-BE3D-7A6A-82911859AB28" name="TELEFONE_ALUNO_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>02F1D660-C5C5-8981-0519-3C547CE30AED</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<referredTableLongName>ALUNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FF26536-D3B6-BED7-C393-2EFDFEE1C27D</referredTableID>
+<keyObject>78105651-1D39-0F13-B0E6-8E934A83E513</keyObject>
+<referredKeyID>78105651-1D39-0F13-B0E6-8E934A83E513</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>aluno_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

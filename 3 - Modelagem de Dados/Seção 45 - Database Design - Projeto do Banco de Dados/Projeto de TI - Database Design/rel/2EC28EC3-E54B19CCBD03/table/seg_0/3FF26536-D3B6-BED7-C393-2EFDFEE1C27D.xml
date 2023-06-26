@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FF26536-D3B6-BED7-C393-2EFDFEE1C27D" name="ALUNO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>F624C3C5-755D-54FC-2603-A5AEA004A9F9</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<abbreviation>ALUN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aluno_id" id="DE1B8A22-8E74-4FBB-182D-ED6A23FE04A9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>D9CA1FDA-9F18-58C3-F142-564578ABD37C</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="71B71C3F-2FFB-35B3-1F5C-35AA726EA79D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>112331DE-AB67-5917-0B05-7AF8D9C5C801</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78105651-1D39-0F13-B0E6-8E934A83E513" name="ALUNO_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>8CCC6AF6-9A7B-FD44-4B2B-09454918CED9</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE1B8A22-8E74-4FBB-182D-ED6A23FE04A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5B507EF-A7D8-5783-BB18-D693BAF1E0AD" containerWithKeyObject="980D6C53-A5B5-18FE-3E9C-72D373085C09" localFKIndex="58DC58AA-F80F-172A-223E-8E2CC466CFA8" name="AGENDA_CURSO_ALUNO_ALUNO_FK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:19:38 UTC</createdTime>
+<generatorID>38BAC05D-935E-DA98-5EB2-E5F8D141DB25</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<referredTableLongName>ALUNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FF26536-D3B6-BED7-C393-2EFDFEE1C27D</referredTableID>
+<keyObject>78105651-1D39-0F13-B0E6-8E934A83E513</keyObject>
+<referredKeyID>78105651-1D39-0F13-B0E6-8E934A83E513</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>aluno_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

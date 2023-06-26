@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D049C868-81F8-ED3E-8596-E417F867D839" mainViewID="D388E52A-9B44-1F16-49F1-6E4BDFC6EC00">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:43:56 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

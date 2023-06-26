@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D518C8AE-6343-90AD-A121-4F85CFB4F84A" name="CLIENTE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>D5DD4F28-3603-1B7E-6ADE-01B2A13B1B03</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cliente_id" id="84F79CC6-BC3C-A399-C270-6244D8C48EB6">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>D1ED6CC1-F445-C668-E888-B2F344E81FE5</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="83A768B0-EADE-D281-99CF-7AD0A7420DD1">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>A97FB381-3F00-CA10-B9A8-0FE67E93887F</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19443544-02E5-2E40-BE0C-455F7B56A280" name="CLIENTE_PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:49:06 UTC</createdTime>
+<generatorID>710B39FB-7951-16B2-78EF-CD2939DB7768</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84F79CC6-BC3C-A399-C270-6244D8C48EB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

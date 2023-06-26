@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BF81FA4-24AF-A8EA-2CDA-066A2DDF7522" name="INSTRUTOR_CURSO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:39:49 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>INSC</shortName>
+<synonym>HABILITACAO</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="instrutor_curso_id" id="E651D25F-5B91-A972-1435-F047F81DE966">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:43:47 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="taxa_hora" id="C6318A48-1C5C-B836-7968-194A58F8D5DD">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:41:44 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instrutor_id" id="2214D6C2-363D-CF32-B22B-D8B42C30FFCB">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:40:34 UTC</createdTime>
+<generatorID>0107342A-38FE-A393-554A-9F88F73A0639</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<referedAttribute>5A980A4E-1E5D-1CB3-4305-A9D11444329B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso_id" id="EB921E81-48E7-81B3-4B87-3734C526F579">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:41:15 UTC</createdTime>
+<generatorID>494D478C-C18F-3F77-9A48-7DD64DE82C3D</generatorID>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<referedAttribute>04B88E06-F995-8F87-FEC6-C48A44AEA301</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48422C58-9018-2168-E3B6-FFC42FC15F99" name="INSTRUTOR_CURSO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 14:40:34 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E651D25F-5B91-A972-1435-F047F81DE966</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5BF6E09E-8175-C5D6-ED88-50593B9DABF3" name="Key_2">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 15:47:22 UTC</createdTime>
+<ownerDesignName>Projeto de TI - Database Design</ownerDesignName>
+<engineerTo>
+<item key="2EC28EC3-5552-F1D9-5BA5-E54B19CCBD03" value="true"/>
+</engineerTo>
+<newElementsIDs>0107342A-38FE-A393-554A-9F88F73A0639,494D478C-C18F-3F77-9A48-7DD64DE82C3D</newElementsIDs>
+<usedAttributes>
+<attributeRef>2214D6C2-363D-CF32-B22B-D8B42C30FFCB</attributeRef>
+<attributeRef>EB921E81-48E7-81B3-4B87-3734C526F579</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

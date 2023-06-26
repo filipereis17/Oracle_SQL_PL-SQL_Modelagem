@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60EA4DD8-73F0-9D60-AAC4-E24C9472C4CA" name="ITEM">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:15 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item_id" id="DBDC7039-A6E1-72C4-51FC-21F669FA1EFF">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:21 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="3A3117FE-ED31-0161-EDBC-520A35F64429">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:33 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desconto" id="EB3E3D60-0EAF-D811-02DE-F0EDA7A6C229">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:44 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido_id" id="5D29A1D3-E1C5-73D9-E219-B5B4DD3045CE">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:48:12 UTC</createdTime>
+<generatorID>35C9B11E-2F1A-F000-7F96-DDD59F5591D1</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<referedAttribute>101349A1-8796-1A53-A165-0FC78AA3D0D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto_id" id="7B204AAB-CA6F-0705-0861-B01EC6730A8C">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:48:25 UTC</createdTime>
+<generatorID>5D5599D5-C415-C8E7-E008-FCE45829EAC8</generatorID>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<referedAttribute>600E048E-58DC-6ADB-6644-8C730EE05D6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0653F083-A64E-1B72-5618-8409A3382683" name="ITEM PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-26 14:46:30 UTC</createdTime>
+<ownerDesignName>Projeto Pedido Desnomalizado</ownerDesignName>
+<engineerTo>
+<item key="B5CA11AF-12E8-A241-5C1A-50468AD6E1F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBDC7039-A6E1-72C4-51FC-21F669FA1EFF</attributeRef>
+<attributeRef>5D29A1D3-E1C5-73D9-E219-B5B4DD3045CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
