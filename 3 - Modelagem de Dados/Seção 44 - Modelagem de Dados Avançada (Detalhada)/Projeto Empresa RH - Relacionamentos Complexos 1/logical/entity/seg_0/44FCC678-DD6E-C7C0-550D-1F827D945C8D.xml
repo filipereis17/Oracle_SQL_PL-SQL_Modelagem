@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44FCC678-DD6E-C7C0-550D-1F827D945C8D" name="PESSOA_EMPRESA">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:24:39 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 1</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EMPE</preferredAbbreviation>
+<shortName>EMPE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dt_inicio" id="B36E603E-727B-2767-E0E1-A3E44AAA47F9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:25:00 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 1</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pessoa_id" id="0143BA93-849B-7A92-5D06-C81FAF2A1181">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:26:46 UTC</createdTime>
+<generatorID>8C933ED3-B6A6-EF55-3647-B5E21B11A324</generatorID>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 1</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<referedAttribute>83C25A53-0199-0867-C171-BF47E95D20F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="empresa" id="8A1AD397-1105-052D-DADE-3B2A038EE585">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:27:35 UTC</createdTime>
+<generatorID>8DBB0E46-CB28-27CC-BE73-9194C8E673D9</generatorID>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 1</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<referedAttribute>26709A83-D56E-E218-C407-4745EE4306AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D51F7A6C-2580-247A-9FDA-DE6F68408DC1" name="PESSOA_EMPRESA PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 18:25:09 UTC</createdTime>
+<ownerDesignName>Projeto Empresa RH - Relacionamentos Complexos 1</ownerDesignName>
+<engineerTo>
+<item key="36CC9FAD-6121-9235-776E-C692C441B626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B36E603E-727B-2767-E0E1-A3E44AAA47F9</attributeRef>
+<attributeRef>0143BA93-849B-7A92-5D06-C81FAF2A1181</attributeRef>
+<attributeRef>8A1AD397-1105-052D-DADE-3B2A038EE585</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
