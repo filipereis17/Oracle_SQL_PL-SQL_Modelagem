@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="4F5FB1BE-1B1E-6F53-4FFD-9ED4D99D4F86">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 15:56:05 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Rel Recursivo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

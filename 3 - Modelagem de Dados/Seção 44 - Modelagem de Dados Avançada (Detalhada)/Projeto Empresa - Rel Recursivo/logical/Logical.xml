@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0E47DF3D-CE76-549B-9E50-66BD6FC6A12B" mainViewID="D4B3DC05-A1EE-C074-CE4E-F4A2C8070817">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 15:56:05 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Rel Recursivo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -43,6 +43,12 @@ No terceiro e último, aprende-se a Modelagem de Dados no padrão Oracle. Os tem
     - Relacionamentos    
 - Modelagem de Dados Avançada (Detalhada)
     - Normalização do Modelo de Dados
-    - Modelagem de Dados Hierárquicos    
+    - Modelagem de Dados Hierárquicos
+    - Relacionamentos M para M: Entidade Associativa
+    - Relacionamentos Recursivos
+    - Supertipos e Subtipos
+    - Relacionamentos Exclusivos
+    - Modelagem de Dados considerando o Tempo
+    - Relacionamentos Complexos
 - Databae Design - Projeto do Banco de Dados
 - Construção

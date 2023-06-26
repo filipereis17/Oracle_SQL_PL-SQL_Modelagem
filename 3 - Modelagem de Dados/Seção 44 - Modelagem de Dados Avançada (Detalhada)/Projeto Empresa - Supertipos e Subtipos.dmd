@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto Empresa - Supertipos e Subtipos" id="AC17C44E-7B23-9D19-3256-F494A4771DE6" version="3.5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:23:28 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AC17C44E-7B23-9D19-3256-F494A4771DE6</designId>
+</OSDM_Design>

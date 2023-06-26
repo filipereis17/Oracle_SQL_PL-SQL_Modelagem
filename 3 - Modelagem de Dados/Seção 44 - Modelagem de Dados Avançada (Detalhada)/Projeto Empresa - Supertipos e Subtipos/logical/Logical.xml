@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0DDC45DD-37DB-50FF-ED87-6562FE4D4EB4" mainViewID="08AC5339-1860-C2B7-CC85-A65DCA542F2F">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:23:28 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

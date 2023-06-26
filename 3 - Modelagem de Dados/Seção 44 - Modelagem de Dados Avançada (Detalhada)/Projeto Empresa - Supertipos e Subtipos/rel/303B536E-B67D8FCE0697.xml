@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" mainViewID="2FD6A971-9ED8-69ED-06B2-E521C1E94638">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:23:31 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

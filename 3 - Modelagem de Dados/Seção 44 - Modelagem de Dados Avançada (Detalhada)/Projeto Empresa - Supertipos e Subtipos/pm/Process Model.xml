@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1823FED0-7F6A-975E-D79F-49241E5AC220">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:23:28 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

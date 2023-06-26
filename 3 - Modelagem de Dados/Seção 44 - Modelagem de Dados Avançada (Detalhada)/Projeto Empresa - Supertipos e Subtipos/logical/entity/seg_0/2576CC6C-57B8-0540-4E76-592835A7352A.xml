@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2576CC6C-57B8-0540-4E76-592835A7352A" name="EMPREGADO">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:23:37 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EMPR</preferredAbbreviation>
+<shortName>EMPR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="empregado_id" id="0517C993-3FD0-6176-CEE9-F96AD934DEB8">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:23:54 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="10BCC033-99E8-DA87-D016-A747FA626B69">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:24:14 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="DFBD54AC-66C5-B3EE-3E74-2CB804BDD8C9">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:24:32 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento_id" id="D5233BE4-CB31-CF7E-FD39-FB40E534484D">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:26:26 UTC</createdTime>
+<generatorID>0A8411C2-72B4-D576-91A9-793CCEB8DFBA</generatorID>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<referedAttribute>BBA68EE9-EE1A-8127-9837-4AA8B14D03A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0CBDD30-C2C3-541C-C6F7-25EACEE27C0E" name="EMPREGADO PK">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:24:10 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0517C993-3FD0-6176-CEE9-F96AD934DEB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

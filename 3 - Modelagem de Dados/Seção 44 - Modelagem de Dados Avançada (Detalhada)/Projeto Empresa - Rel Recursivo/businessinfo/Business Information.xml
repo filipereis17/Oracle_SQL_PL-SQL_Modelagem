@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5825C858-8BB5-6E23-86C3-40F6A8BDC0D3">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 15:56:05 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Rel Recursivo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

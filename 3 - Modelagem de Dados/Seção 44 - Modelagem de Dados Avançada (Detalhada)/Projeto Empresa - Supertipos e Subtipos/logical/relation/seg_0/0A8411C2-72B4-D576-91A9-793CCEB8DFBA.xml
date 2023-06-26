@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPARTAMENTO_EMPREGADO" directorySegmentName="seg_0" id="0A8411C2-72B4-D576-91A9-793CCEB8DFBA">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 17:26:26 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Supertipos e Subtipos</ownerDesignName>
+<engineerTo>
+<item key="303B536E-8C34-AB1B-B5EA-B67D8FCE0697" value="true"/>
+</engineerTo>
+<sourcePk>8AF3CB1D-20C8-B369-F038-FA69B69C094A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>445659CC-C1BF-0250-0DC4-82E4ED793001</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2576CC6C-57B8-0540-4E76-592835A7352A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto Empresa - Rel Recursivo" id="5BA007B1-63B1-923B-70C8-2C63F9B0BD46" version="3.5">
+<createdBy>P001530</createdBy>
+<createdTime>2023-06-22 15:56:05 UTC</createdTime>
+<ownerDesignName>Projeto Empresa - Rel Recursivo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5BA007B1-63B1-923B-70C8-2C63F9B0BD46</designId>
+</OSDM_Design>
